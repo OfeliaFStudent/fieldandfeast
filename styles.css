@@ -133,6 +133,51 @@ table {
 }
 /* GLOBAL STYLES (mobile first/small) */
 
+body{
+  display:flex;
+  justify-content:center;
+  align-items:center;
+}
+header, body, footer{
+  max-width:100%;
+}
+header{
+  background-color:var(--Midnight-blue);
+  justify-content:center;
+  text-align:center;
+}
+/*header > img{
+  margin:20px;
+}*/
+
+header > h1{
+  color:var(--Soft-white);
+  font:var(--Font);
+  font-size:3em;
+  font-weight:bold;
+  margin:10px;
+}
+
+header > h2{
+  color:var(--Soft-white);
+  font:ver(--Font);
+  font-style:italic;
+  margin:10px;
+}
+header > nav{
+  background-color:var(--Champagne-gold);
+}
+header > nav > ul{
+  display:flex;
+  padding:10px;
+  justify-content:space-around;
+}
+header > nav > ul > li > a{
+  color:var(--Midnight-blue);
+  text-decoration:none;
+  font:var(--Font);
+   font-weight:bold;
+}
 
 /* MEDIA QUERY (medium) */
 
