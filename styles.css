@@ -257,7 +257,14 @@ list-style-type:disc;
   padding-bottom:10px;
 }
 
-
+#gallery > p{
+  padding-bottom:20px;
+  font-family:var(--Font);
+  word-spacing:2px;
+}
+#gallery > div > div{
+  display:flex;
+}
 
 
 /* MEDIA QUERY (medium) */
