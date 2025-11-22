@@ -133,11 +133,6 @@ table {
 }
 /* GLOBAL STYLES (mobile first/small) */
 
-body{
-  display:flex;
-  justify-content:center;
-  align-items:center;
-}
 header, body, footer{
   max-width:100%;
 }
@@ -152,7 +147,7 @@ header{
 
 header > h1{
   color:var(--Soft-white);
-  font:var(--Font);
+  font-family:var(--Font);
   font-size:3em;
   font-weight:bold;
   margin:10px;
@@ -160,7 +155,7 @@ header > h1{
 
 header > h2{
   color:var(--Soft-white);
-  font:ver(--Font);
+  font-family:var(--Font);
   font-style:italic;
   margin:10px;
 }
@@ -175,9 +170,95 @@ header > nav > ul{
 header > nav > ul > li > a{
   color:var(--Midnight-blue);
   text-decoration:none;
-  font:var(--Font);
+  font-family:var(--Font);
    font-weight:bold;
 }
+
+#welcome{
+  padding-top:50px;
+  padding-left:20px;
+  padding-bottom:20px;
+  padding-right:20px;
+  
+}
+#welcome > h2{
+  color:var(--Midnight-blue);
+  font-family:var(--Font);
+  justify-self:left;
+  font-size:1.7em;
+  padding-bottom:10px;
+}
+
+#welcome > p{
+  padding-bottom:20px;
+  font-family:var(--Font);
+  word-spacing:2px;
+  border-bottom: 3px solid var(--Champagne-gold);
+  
+}
+
+#offerings{
+  padding-top:20px;
+  padding-left:20px;
+  padding-bottom:20px;
+  padding-right:20px;
+}
+#offerings > h2{
+   color:var(--Midnight-blue);
+  font-family:var(--Font);
+  justify-self:left;
+  font-size:1.7em;
+}
+#offerings > div{
+  background-color:var(--Olive-green);
+  margin:10px;
+  border-radius:10px;
+  padding:20px;
+  box-shadow:3px 5px 10px 0px grey;
+}
+#offerings > div > h3{
+  color:var(--Linen);
+  font-family:var(--Font);
+  font-size:1.5em;
+  font-weight:bold;
+}
+#offerings > div > p{
+  color:var(--Linen);
+  padding-top:8px;
+  font-family:var(--Font);
+  font-size:1em;
+  word-spacing:2px;
+}
+
+#offerings > div > ul > li{
+   color:var(--Linen);
+  padding-top:8px;
+  font-family:var(--Font);
+  font-size:1em;
+  word-spacing:2px;
+}
+
+#offerings > div > ul{
+list-style-type:disc;
+  padding-left:20px;
+}
+
+#gallery{
+  padding-left:20px;
+  padding-right:20px;
+}
+#gallery > h2{
+  border-top: 3px solid var(--Champagne-gold);
+  padding-top:20px;
+  color:var(--Midnight-blue);
+  font-family:var(--Font);
+  justify-self:left;
+  font-size:1.7em;
+  padding-bottom:10px;
+}
+
+
+
 
 /* MEDIA QUERY (medium) */
 
