@@ -134,7 +134,7 @@ table {
 /* GLOBAL STYLES (mobile first/small) */
 
 header, body, footer{
-  max-width:100%;
+  max-width:400px;
 }
 header{
   background-color:var(--Midnight-blue);
@@ -176,23 +176,25 @@ header > nav > ul > li > a{
 
 #welcome{
   padding-top:50px;
-  padding-left:20px;
   padding-bottom:20px;
-  padding-right:20px;
+  padding-left:20px;
   
 }
 #welcome > h2{
   color:var(--Midnight-blue);
   font-family:var(--Font);
-  justify-self:left;
+  text-align:left;
   font-size:1.7em;
+  max-width:600px;
   padding-bottom:10px;
 }
 
 #welcome > p{
   padding-bottom:20px;
   font-family:var(--Font);
-  word-spacing:2px;
+  word-spacing:3px;
+  font-size:.8em;
+  line-height:1.4em;
   border-bottom: 3px solid var(--Champagne-gold);
   
 }
@@ -219,22 +221,24 @@ header > nav > ul > li > a{
 #offerings > div > h3{
   color:var(--Linen);
   font-family:var(--Font);
-  font-size:1.5em;
+  font-size:1.3em;
   font-weight:bold;
 }
 #offerings > div > p{
   color:var(--Linen);
-  padding-top:8px;
+  padding-top:3px;
   font-family:var(--Font);
-  font-size:1em;
+  font-size:.8em;
   word-spacing:2px;
+  line-height:1.4em;
 }
 
 #offerings > div > ul > li{
    color:var(--Linen);
   padding-top:8px;
   font-family:var(--Font);
-  font-size:1em;
+  font-size:.8em;
+  line-height:1.2em;
   word-spacing:2px;
 }
 
@@ -246,9 +250,9 @@ list-style-type:disc;
 #gallery{
   padding-left:20px;
   padding-right:20px;
+  border-top: 3px solid var(--Champagne-gold);
 }
 #gallery > h2{
-  border-top: 3px solid var(--Champagne-gold);
   padding-top:20px;
   color:var(--Midnight-blue);
   font-family:var(--Font);
@@ -261,6 +265,8 @@ list-style-type:disc;
   padding-bottom:20px;
   font-family:var(--Font);
   word-spacing:2px;
+  font-size:.8em;
+  line-height:1.2em;
 }
 #gallery > div > div{
   background-color:var(--Linen);
@@ -278,10 +284,8 @@ gallery > div > div > img{
   width:100%;
   height:auto;
   display:block;
-  object-fit:cover;
-  border-top-left-radius: 5px;
-  border-top-right-radius: 5px;
-
+  justify-self:center;
+  object-fit:fill;
 }
 #gallery > div > p{
   background-color:var(--Olive-green);
