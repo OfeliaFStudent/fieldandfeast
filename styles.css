@@ -276,13 +276,13 @@ list-style-type:disc;
   margin:10px;
   border-radius:10px;
   box-shadow:3px 5px 10px 0px grey;
-  max-width:400px;
-  height:300px;
+  max-width:200px;
+  justify-self:center;
 }
 #gallery > div > div > p{
   justify-self:center;
   padding:10px;
-  font-size:.8em;
+  font-size:.7em;
   font-style:italic;
 }
 gallery > div > div > img{
