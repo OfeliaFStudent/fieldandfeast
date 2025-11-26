@@ -353,7 +353,7 @@ footer > div:nth-of-type(2) > p{
   font-weight:bold;
   display:inline-grid;
 }
-@media all and (min-width:400px){
+@media all and (min-width:1px){
     #offerings {
     display:inline-grid;
     grid-template-columns:auto;
