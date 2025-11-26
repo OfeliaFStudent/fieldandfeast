@@ -285,7 +285,7 @@ list-style-type:disc;
   font-size:.7em;
   font-style:italic;
 }
-gallery > div > div > img{
+#gallery > div > div > img{
   width:100%;
   height:auto;
   display:block;
