@@ -358,6 +358,9 @@ footer > div:nth-of-type(2) > p{
     display:inline-grid;
     grid-template-columns:auto;
   }
+  #offerings > div > div > img{
+    width:80vw;
+  }
 }
 /* MEDIA QUERY (medium) */
 
@@ -374,6 +377,10 @@ footer > div:nth-of-type(2) > p{
   }
   #offerings > div:nth-child(4){
     grid-column:span 2;
+  }
+
+  #offerings > div > div > img{
+    width:40vw;
   }
 }
 
@@ -395,6 +402,10 @@ footer > div:nth-of-type(2) > p{
     margin-left:100px;
     margin-right:100px;
   }
+
+  #offerings > div > div > img{
+    width:30vw;
+  }
 }
 
 
@@ -410,5 +421,8 @@ footer > div:nth-of-type(2) > p{
   #welcome, #offerings, #gallery{
     margin-left:100px;
     margin-right:100px;
+  }
+  #offerings > div > div > img{
+    width:20vw;
   }
 }
